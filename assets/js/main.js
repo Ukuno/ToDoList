@@ -21,7 +21,7 @@ $("input[type='text']").on('keypress',function(event){
 		$(this).val("");
 		//add to the list of todo list
 
-		$("ul").append("<li><span><i class='fa fa-trash'></i></span> "+addToDoList+"</li>");
+		$("ul").prepend("<li><span><i class='fa fa-trash'></i></span> "+addToDoList+"</li>");
 
 	}
 });
